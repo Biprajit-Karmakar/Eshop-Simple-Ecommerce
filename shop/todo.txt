@@ -1,0 +1,89 @@
+## Shop
+
+- Customer
+    - name
+    - phone
+    - location
+    - image
+    - user (fk)
+
+- Category
+    - title
+    - slug
+    - created_at
+
+- Product
+    - title
+    - slug
+    - description
+    - image
+    - price
+    - discount_price
+    - shipping_price
+    - stocks
+    - created_at
+    - category (fk)
+
+- Order
+    - transaction_id
+    - is_complete
+    - placed_at
+    - customer (fk)
+
+
+- Order Item/Order Product
+    - order (fk)
+    - product (fk)
+    - quantity
+    - placed_at
+
+
+- Shipping
+    - city
+    - address
+    - post_code
+    - order (fk)
+    - customer (fk)
+
+
+
+- XSS attack
+- SQL Injection
+
+AJAX
+    - what is AJAX
+    - JS promise
+    - then, catch
+    - async await
+
+
+
+JSON - Java Script Object Notation
+AJAX  - Asynchronous JavaScript And XML 
+
+- then, catch
+- async await
+
+
+Tech Stack :
+- LAMP (Linux Apache MySQL PHP/Python)
+- MERN/MEVN/MEAN (MongoDB Express.js React/Vue/Angular Node.js)
+
+- Laravel (PHP)
+- Django (Python)
+- Ruby on Rails (Ruby)
+- Nest.js / Adonis (TS/JS)
+
+Features :
+- Authentication & Authorization
+- Product List
+- Product Detail
+- Email Sending
+- Customer create
+- Add To Cart
+- Checkout
+- Pagination
+- Search
+- Payment
+- Newsletter
+- Slider/Promo Area
